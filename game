@@ -1,0 +1,34 @@
+import turtle
+
+wn = turtle.Screen()
+
+wn.title("BONG by emy")
+wn.color("white")
+wn.setup(width=800, height=600)
+wn.tracer(0)
+# score
+score_a = 0
+score_b = 0
+# paddle a
+paddle_a= turtle.Turtle()
+paddle_a.speed(0)
+paddle_a.shape("square")
+paddle_a.color("black")
+paddle_a.shapesize(stretch_len=1,stretch_wid=5)
+paddle_a.penup()
+paddle_a.goto(-350,0)
+
+# paddle b
+paddle_b= turtle.Turtle()
+paddle_b.speed(0)
+paddle_b.shape("square")
+paddle_b.color("red")
+paddle_b.shapesize(stretch_len=1,stretch_wid=5)
+paddle_b.penup()
+paddle_b.goto(350,0)
+
+
+
+
+
+
